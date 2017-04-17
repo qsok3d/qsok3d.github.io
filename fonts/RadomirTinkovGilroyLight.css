@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'RadomirTinkovGilroyLight';
+    src: url('fonts/RadomirTinkovGilroyLight.eot');
+    src: url('fonts/RadomirTinkovGilroyLight.eot') format('embedded-opentype'),
+         url('fonts/RadomirTinkovGilroyLight.woff2') format('woff2'),
+         url('fonts/RadomirTinkovGilroyLight.woff') format('woff'),
+         url('fonts/RadomirTinkovGilroyLight.ttf') format('truetype'),
+         url('fonts/RadomirTinkovGilroyLight.svg#RadomirTinkovGilroyLight') format('svg');
+}
