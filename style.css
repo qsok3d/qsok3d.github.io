@@ -48,6 +48,7 @@ body{
 .default__link{
   text-decoration: none;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .header__button{
