@@ -59,17 +59,19 @@ body{
   line-height: 2.4;
   color: #fff;
   background-color: #3498db;
-  border-radius: 10%;
+  border-radius: 5px;
   border: 0px;
   cursor: pointer;
   outline: none;
+  font-family: 'Montserrat-Bold', Arial, Helvetica;
+  text-transform: uppercase;
 }
 
 .header__about{
   width: 100%;
   max-width: 720px;
   height: 440px;
-  margin: 0 auto;
+  padding-left: 145px;
 }
 
 .header__text{
@@ -81,8 +83,7 @@ body{
 }
 
 .header__pic{
-  max-width: 60px;
-  height: 60px;
+  padding-bottom: 75px;
 }
 
 .header__heading{
@@ -91,7 +92,6 @@ body{
   font-size: 48px;
   text-transform: uppercase;
   line-height: 1.5;
-  padding-top: 75px;
 }
 
 .header__subtitle{
@@ -123,13 +123,13 @@ body{
 .buttons__base_left{
   background-color: #59a3fc;
   width: 175px;
-  border-radius: 20px 0 0 20px;
+  border-radius: 10px 0 0 10px;
 }
 
 .buttons__base_right{
   background-color: #3d92f9;
   width: 175px;
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 10px 10px 0;
 }
 
 .buttons__base_circle{
@@ -140,4 +140,87 @@ body{
   width: 28px;
   height: 28px;
   line-height: 2;
+}
+
+.slider{
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.slider__button{
+  width: 12px;
+  height: 12px;
+  color: #636363;
+  border: none;
+  border-radius: 50%;
+  opacity: 0.4;
+  margin-right: 18px;
+}
+
+.slider__button:last-child{
+  margin-right: 0px;
+}
+
+.slider__button_white{
+  color: #b7b7b7;
+  opacity: 1;
+}
+
+/* верстка base */
+
+.base{
+  background-color: #e7eef6;
+  height: 290px;
+}
+
+.base__nav{
+  padding: 0 180px;
+  padding-top: 30px;
+}
+
+.services{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.services__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services__logo{
+  width: 95px;
+  height: 95px;
+  background-color: #cadaec;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.services__pic{
+
+}
+
+.services__heading{
+  padding-top: 25px;
+  font-family: 'Montserrat-Bold', Arial, Helvetica;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.services__text{
+  padding-top: 25px;
+  font-family: 'OpenSans', Arial, Helvetica;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
 }
